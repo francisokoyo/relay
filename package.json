@@ -1,0 +1,16 @@
+{
+  "name": "relay",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rm -rf dist/",
+    "start": "node dist/",
+    "dev": "ts-node src/"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.22",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
